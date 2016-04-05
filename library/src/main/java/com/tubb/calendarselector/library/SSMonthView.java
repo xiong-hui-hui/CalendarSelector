@@ -233,6 +233,7 @@ public class SSMonthView extends View{
         return true;
     }
 
+
     private void measureClickCell(int row, int col) {
         if (row >= realRowCount || col >= COL_COUNT){
             Log.d(TAG, "Out of bound");
